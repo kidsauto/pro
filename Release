@@ -1,0 +1,12 @@
+Origin: KidsAuto Pro v10 Repo
+Label: KidsAuto Pro v10 Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: KidsAuto Pro v9 for Device Model 10.x - 12.2 (Unc0ver) & 12.4 + Checkra1n Jailbreaks
+MD5Sum:
+ 507473d5e91d8be450b64ccaa15dc40c 7585 Packages
+ 744c1ed6bb4fb2dc4b156c18c86460f3 2722 Packages.bz2
+ 763ef8df4248bdd391db8503fb22db08 2574 Packages.gz
