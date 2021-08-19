@@ -1,17 +1,17 @@
 Package: com.kidsautopro.kidsauto
-Name: KidsAutoPro v10
-Version: 10.8.16
+Name: KidsAuto Pro v10
+Version: 10.8.18
 Architecture: iphoneos-arm
 Description: KidsAuto Pro ver 10 Update 16/08/2021, Hỗ trợ từ iOS 11 -> 12.2 (JB Unc0ver v4.3.1) && 12.3 - 14.x (JB Checkra1n)
 Author: Developer by KidsAuto Team <https://www.facebook.com/kidsauto91>
 Maintainer: Developer by KidsAuto Team <https://www.facebook.com/kidsauto91>
 Section: System
 Tag: role::hacker, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14
-Filename: ./Debs/16-08_com.kidsautopro.kidsauto_10.8.16_Public.deb
-Size: 501766
-MD5sum: f48a50442a0a8c7a337684e672477bcd
 Depends: preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsautopro.kidsautosetting, com.kidsautopro.kidssupport
 Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.kidsauto.kidsdaemon,com.kidsauto.kidsrestore,com.kidsauto.kidsdeviceinfo,ch.ringwald.hidsupport,jp.ashikase.mousesupport,com.kidsautopro.hookmob,com.kidsautopro.kidsauto (<= 10.0.0)
+Filename: ./Debs/KidsAutoProv10_10818.deb
+Size: 650692
+MD5sum: e3bf9c6a0b3a7ed2cc0e0406d8e6bfc0
 
 Package: com.kidsautopro.kidssupport
 Name: KidsSupport
