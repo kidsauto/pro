@@ -13,6 +13,21 @@ Filename: ./Debs/KidsAutoProv10_10818.deb
 Size: 650692
 MD5sum: e3bf9c6a0b3a7ed2cc0e0406d8e6bfc0
 
+Package: com.kidsautopro.kidsauto
+Name: KidsAuto Pro v10
+Version: 10.8.21
+Architecture: iphoneos-arm
+Description: KidsAuto Pro ver 10 Update 21/08/2021, Hỗ trợ từ iOS 11 -> 12.2 (JB Unc0ver v4.3.1) && 12.3 - 14.x (JB Checkra1n)
+Author: Developer by KidsAuto Team <https://www.facebook.com/kidsauto91>
+Maintainer: Developer by KidsAuto Team <https://www.facebook.com/kidsauto91>
+Section: System
+Tag: role::hacker, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14
+Depends: com.kidsautopro.kidsautosetting
+Conflicts: com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.kidsauto.kidsdaemon,com.kidsauto.kidsrestore,com.kidsauto.kidsdeviceinfo,ch.ringwald.hidsupport,jp.ashikase.mousesupport,com.kidsautopro.hookmob,com.kidsautopro.kidsauto (<= 10.0.0)
+Filename: ./Debs/KidsAutoProv10_10821.deb
+Size: 648168
+MD5sum: 61fbeded273478b337b644e716e6cf18
+
 Package: com.kidsautopro.kidssupport
 Name: KidsSupport
 Version: 1.1
@@ -27,18 +42,18 @@ Size: 846726
 MD5sum: 592c59be45a65215455265990b779934
 
 Package: com.kidsautopro.kidsautosetting
-Name: KidsAutoSetting
+Name: Kids Auto Setting
 Version: 1.2-22
 Architecture: iphoneos-arm
 Description: Utilities to support KidsAuto Pro, Fixed SSL to Bugs App!!!
 Author: KidsAuto Pro - Cường Trần <https://www.facebook.com/kidsauto91>
 Maintainer: Dev by KidsAuto Team
 Section: Tweaks
-Filename: ./Debs/KidsSetting1222.deb
-Size: 61566
-MD5sum: 32239ba95a760e208b81ab1136ee953e
-Depends: mobilesubstrate, ws.hbang.common
-Conflicts: com.kidsprivate.kidsrestore, com.kidsauto.sslkillswitch2
+Depends: mobilesubstrate, ws.hbang.common, preferenceloader, com.conradkramer.open, com.rpetrich.rocketbootstrap, zip, unzip, openssh, rsync, jetslammed, socat, sudo, ws.hbang.repower, com.cydiageek.coysim, applist, com.kidsautopro.kidssupport
+Conflicts: com.kidsprivate.kidsrestore, com.kidsauto.sslkillswitch2, com.rbt.useragentchanger,com.autopear.installipa,com.kidsauto.locationchanger,com.kidsauto.kidsdaemon,com.kidsauto.kidsrestore,com.kidsauto.kidsdeviceinfo,ch.ringwald.hidsupport,jp.ashikase.mousesupport,com.kidsautopro.hookmob,com.kidsautopro.kidsauto (<= 10.0.0)
+Filename: ./Debs/KidsSetting.deb
+Size: 61778
+MD5sum: d73bf130abd08297192a690ffe4d96ac
 
 Package: com.kidsauto.addon
 Name: KidsAuto Addon
