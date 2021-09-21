@@ -56,6 +56,20 @@ Filename: ./Debs/KidsAutoProv10_Release_10.9.17_NewInfoFake.deb
 Size: 587082
 MD5sum: b0af3cf366d649a4eba6aec573509fa6
 
+Package: com.kidsautopro.kidsauto
+Name: KidsAuto Pro v10
+Version: 10.9.20
+Architecture: iphoneos-arm
+Description: KidsAuto Pro iOS, Support from version 10.x - 14.x
+Author: KidsAuto Pro - Cường Trần <https://www.facebook.com/groups/1356112074493442/>
+Maintainer: KidsAuto Pro Teams
+Section: Tweaks
+Tag: role::hacker
+Depends: mobilesubstrate
+Filename: ./Debs/KidsAutoProv10_10.9.20_Public_FixSendText_WipeNew.deb
+Size: 587654
+MD5sum: b0af3cf366d649a4eba6aec573509fa6
+
 Package: com.kidsautopro.kidssupport
 Name: KidsSupport
 Version: 1.1
