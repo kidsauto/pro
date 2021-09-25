@@ -68,7 +68,7 @@ Tag: role::hacker
 Depends: mobilesubstrate
 Filename: ./Debs/KidsAutoProv10_10.9.20_Public_FixSendText_WipeNew.deb
 Size: 587654
-MD5sum: b0af3cf366d649a4eba6aec573509fa6
+MD5sum: ba909304fb8627a8c8dcd8bfec58c1c6
 
 Package: com.kidsautopro.kidssupport
 Name: KidsSupport
