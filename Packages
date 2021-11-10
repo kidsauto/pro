@@ -86,7 +86,7 @@ MD5sum: 78bc25f019948d332797ba8983742294
 
 Package: com.kidsautopro.kidssupport
 Name: Kids Support
-Version: 1.11-10-1
+Version: 1.11-10-2
 Architecture: iphoneos-arm
 Description: Utilities to support KidsAuto Pro!!!
 Maintainer: KidsAuto Teams
@@ -94,9 +94,9 @@ Author: KidsAuto Pro - Cường Trần <https://www.facebook.com/kidsauto91>
 Section: Utilities
 Icon: file:///Applications/kidsauto.app/AppIcon.png
 Depiction: http://kidsauto.github.io/pro
-Filename: ./Debs/KidsSupport_1.11-10-1_ShowingIPAddress.deb
-Size: 1175656
-MD5sum: d494119bdbd3fc7977ba76c8b1f85371
+Filename: ./Debs/KidsSupport_1.11-10-2.deb
+Size: 1180664
+MD5sum: 37366f13d004156ae949f1e4b524b8b0
 
 Package: com.kidsautopro.kidsautosetting
 Name: KidsAuto Settings
