@@ -70,18 +70,33 @@ Filename: ./Debs/KidsAutoProv10_10.9.20_Public_FixSendText_WipeNew.deb
 Size: 587654
 MD5sum: ba909304fb8627a8c8dcd8bfec58c1c6
 
+Package: com.kidsautopro.kidsauto
+Name: KidsAuto Pro v10
+Version: 10.11.10
+Architecture: iphoneos-arm
+Description: KidsAuto Pro iOS, Support from version 10.x - 14.8.x
+Author: KidsAuto Pro - Cường Trần <https://www.facebook.com/groups/1356112074493442/>
+Maintainer: KidsAuto Pro Teams
+Section: Tweaks
+Tag: role::hacker
+Depends: mobilesubstrate
+Filename: ./Debs/KidsAutoProv10_Public_10.11.10_FixedBugs.deb
+Size: 600882
+MD5sum: e3bd9cda474cfc4982f51bed7dc44846
+
 Package: com.kidsautopro.kidssupport
-Name: KidsSupport
-Version: 1.1
+Name: Kids Support
+Version: 1.11-10-1
 Architecture: iphoneos-arm
 Description: Utilities to support KidsAuto Pro!!!
-Maintainer: Dev by Tuệ Mobi
+Maintainer: KidsAuto Teams
 Author: KidsAuto Pro - Cường Trần <https://www.facebook.com/kidsauto91>
 Section: Utilities
 Icon: file:///Applications/kidsauto.app/AppIcon.png
-Filename: ./Debs/KidsSupport1.1.deb
-Size: 846726
-MD5sum: 592c59be45a65215455265990b779934
+Depiction: http://kidsauto.github.io/pro
+Filename: ./Debs/KidsSupport_1.11-10-1_ShowingIPAddress.deb
+Size: 1175656
+MD5sum: d494119bdbd3fc7977ba76c8b1f85371
 
 Package: com.kidsautopro.kidsautosetting
 Name: KidsAuto Settings
@@ -135,6 +150,27 @@ Size: 30262
 MD5sum: bb94bb80f7e821875224ecb4f8f8d117
 Depends: mobilesubstrate, applist, preferenceloader, firmware (>=12.0)
 Conflicts: com.rpgfarm.a-bypass, com.kidsauto.kidsbypass, com.kidsprivate.jailbreakbypass, com.ryleyangus.liberty, com.kidsauto.xcon, com.kidsauto.jailprotect, kr.xsf1re.flyjb
+
+Author: akusio
+Maintainer: ichitaso
+Name: KernBypass (Unofficial)
+Package: jp.akusio.kernbypass-unofficial
+Pre-Depends: firmware (>= 12.0), firmware (<< 15.0)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: jp.akusio.kernbypass, com.apple.memecity
+Replaces: jp.akusio.kernbypass-unofficial
+Section: System
+Version: 0.0.5
+Architecture: iphoneos-arm
+Description: kernel level jailbreak detection bypass.
+Depiction: https://cydia.ichitaso.com/depiction/kernbypass.html
+Homepage: https://ichitaso.com
+dev: akusio, Misty, ichitaso, XsF1re 
+Tag: purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14
+Icon: file:///Library/PreferenceBundles/KernBypassPrefs.bundle/icon@2x.png
+Filename: ./Debs/jp.akusio.kernbypass-unofficial_0.0.5.deb
+Size: 144922
+MD5sum: 88664e2a63933c4ba6c58a13936d4299
 
 Package: kr.xsf1re.flyjb
 Name: FlyJB_KidsByPass
