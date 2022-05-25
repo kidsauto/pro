@@ -7,6 +7,6 @@ Architectures: iphoneos-arm
 Components: main
 Description: KidsAuto Pro v9 for Device Model 10.x - 12.2 (Unc0ver) & 12.4 + Checkra1n Jailbreaks
 MD5Sum:
- f905f900581ff9508aae0fb8c483bd7f 13699 Packages
- 3e741e495ffd9a4c5c5f72657c161db0 3592 Packages.bz2
- 61fa4d6a0ecfd2c3511e35bfd91ee6ef 3319 Packages.gz
+ bd305db370d937554f4ce0eb5897ef88 14187 Packages
+ e45203f52f0383d898758f6e1ac62c97 3654 Packages.bz2
+ b1a97a5667f48c258bd15db2503b1b8b 3365 Packages.gz
