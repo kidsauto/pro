@@ -355,3 +355,16 @@ Filename: ./Debs/ccsupport_1.3.4.deb
 Size: 56738
 MD5sum: ddf3f3979b9805137900e3e40a550e45
 Depends: firmware (>= 13.0), mobilesubstrate (>= 0.9.5000)
+
+Package: jetslammed
+Name: Jetslammed
+Version: 1.2
+Architecture: iphoneos-arm
+Section: Utilities
+Depends: firmware (>= 7)
+Filename: ./Debs/jetslammed_1.2.deb
+Author: Mario Ciabarra <https://github.com/mariociabarra/jetslammed>
+Maintainer: Mario Ciabarra <https://github.com/mariociabarra/jetslammed>
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Depiction: http://modmyi.com/info/jetslammed.d.php
+Description: Library for modifying jetsam memory limits per process
